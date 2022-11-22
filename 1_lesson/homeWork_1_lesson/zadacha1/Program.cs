@@ -11,15 +11,15 @@ int b = int.Parse(Console.ReadLine());
 
 if (b > a)
 {
-    Console.Write("Максимальное число: ");
-    Console.Write(b);
+    Console.WriteLine("Максимальное число: ");
+    Console.WriteLine(b);
+    Console.WriteLine("Минимальное число: ");
+    Console.WriteLine(a);
 }
 else
 {
-    Console.Write("Максимальное число: ",a);
-    Console.Write(a);
+    Console.WriteLine("Максимальное число: ");
+    Console.WriteLine(a);
+    Console.WriteLine("Минимальное число: ");
+    Console.WriteLine(b);
 }
-// Console.Write($"{NegN} ");
-//string a = Console.ReadLine();
-//int N = int.Parse(a);
-//int NegN = - N;
